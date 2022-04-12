@@ -192,6 +192,7 @@ p::selection {
 	font-size: 2em;
 	}
 	header{
+	height: 500px;
 	clip-path: polygon(50% 0%,100% 0,100% 85%,50% 100%,0 85%, 0 0);
 	}
 	header p{
