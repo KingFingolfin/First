@@ -179,6 +179,10 @@ p::selection {
   color: black;
 }
 @media only screen and (max-width: 600px) {
+	li{
+	margin-left: 5px;
+	margin-right:5px;
+	}
 	.navbar{
 	height: 90px;
 	}
