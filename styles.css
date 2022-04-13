@@ -56,7 +56,7 @@ header{
 	border-bottom-right-radius: 8px;
 	border-bottom-left-radius: 8px;
 
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: space-around;
 	height: 3em;
@@ -69,6 +69,7 @@ header{
 	 transition: opacity .15s ease-out;
 }
 .has-dropdown:focus-within .dropdown{
+	display: flex;
 	opacity: 1;
 	pointer-events: auto;
 }
@@ -197,6 +198,7 @@ p::selection {
 	}
 	header p{
 		font-size: 2em;
+		margin-bottom: 100px;
 	}
 	main p{
 		margin-left: 10px;
@@ -231,6 +233,8 @@ p::selection {
 	justify-content: space-around;
 	height: 9em;
 
-	transform: translateX(10%);
+	transform: translateX(-20%);
+	margin-top: 20px;
+	padding: 0px;
 	}
 }
